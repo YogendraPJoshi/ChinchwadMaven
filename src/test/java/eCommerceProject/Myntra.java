@@ -11,7 +11,8 @@ public class Myntra {
   {
 	  WebDriver driver= new ChromeDriver();
 	  Reporter.log("opening myntra", true);
-	  driver.get("https://www.myntra.com/");
+	  //driver.get("https://www.myntra.com/");
+	  driver.get("https://www.snapdeal.com/");
 	  driver.manage().deleteAllCookies();
 	  //Assert.fail();
 	  Thread.sleep(7000);
